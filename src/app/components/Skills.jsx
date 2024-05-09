@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Skills = () => {
   return (
     <div className=" mt-28 md:mx-20 m-4">
@@ -16,7 +16,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">50%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dnextjs%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -30,7 +30,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">50%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dreact%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -44,7 +44,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">80%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dtailwind%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -58,7 +58,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">70%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dgithub%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -73,7 +73,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">90%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dhtml%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -87,7 +87,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">90%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dcss%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -101,7 +101,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">65%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Djs%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -115,7 +115,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">85%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dvscode%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -129,7 +129,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">30%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dexpress%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "
@@ -143,7 +143,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center mx-4">
               <p className="px-3 font-thin">30%</p>
-              <img
+              <Image
                 src="https://shehzad.vercel.app/_next/image?url=https%3A%2F%2Fskillicons.dev%2Ficons%3Fi%3Dnodejs%26theme%3Ddark&w=96&q=75"
                 alt=""
                 className=" w-14 "

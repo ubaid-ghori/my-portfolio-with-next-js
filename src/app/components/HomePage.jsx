@@ -8,7 +8,7 @@ const HomePage = () => {
   
   <div className=' flex flex-col justify-center items-center' >
   <h1 className='text-[35px] md:text-[90px] text-white  font-bold'>
-        Hi,I'M  <span className='text-[#73C2FB]'>UBAID</span>
+        Hi,I AM  <span className='text-[#73C2FB]'>UBAID</span>
       </h1>
      <TextEffect />
       
