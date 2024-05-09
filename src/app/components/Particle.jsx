@@ -48,7 +48,7 @@ const Particle = () => {
               speed: 1,
               straight: false,
             },
-            number: { density: { enable: true, area: 400 }, value: 40 },
+            number: { density: { enable: true, area: 300 }, value: 30 },
             opacity: { value: 0.5 },
             shape: { type: "tringle" },
             size: { value: { min: 2, max: 5 } },

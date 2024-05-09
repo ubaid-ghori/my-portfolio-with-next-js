@@ -11,6 +11,8 @@ import Introduction from "./components/Introduction";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 export default function Home() {
   useEffect(()=>{
     // You can also pass an optional settings object
@@ -49,6 +51,8 @@ export default function Home() {
    <Skills />
    <Projects   />
    <Services />
+   <Newsletter />
+   <Footer />
     </>
   );
 }
