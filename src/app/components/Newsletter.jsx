@@ -19,7 +19,7 @@ const Newsletter = () => {
   };
 
   return (
-    <div className='mt-20 mx-20'>
+    <div className='mt-20 mx-4 md:mx-20'>
       <h2 className="font-bold text-3xl text-[#73C2FB] font-mono mb-8">
         Newsletter
       </h2>
