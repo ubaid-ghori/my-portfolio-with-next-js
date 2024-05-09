@@ -25,18 +25,20 @@ const Newsletter = () => {
       </h2>
       <div className="w-full p-8 bg-white rounded-lg shadow-lg">
   
-      <div className="mb-1 mt-4">
+      <div className="mb-10 mt-4">
+        <label htmlFor="" className=' text-xl font-semibold mb-2 px-2'>Email Adress:</label>
         <input
           type="email"
-          className="border border-gray-300 rounded-md px-4 py-2 w-full focus:outline-none focus:border-blue-500"
+          className="border bg-black text-white border-gray-300 rounded-md px-4 py-3 w-full focus:outline-none focus:border-blue-500"
           placeholder="Your Email"
           value={email}
           onChange={handleEmailChange}
         />
       </div>
       <div className="mb-4">
+        <label htmlFor="" className=' text-xl font-semibold mb-2 px-2'>Description:</label>
         <textarea
-          className="border border-gray-300 rounded-md px-4 py-2 w-full h-36 resize-none focus:outline-none focus:border-blue-500"
+          className="border bg-black text-white border-gray-300 rounded-md px-4 py-2 w-full h-36 resize-none focus:outline-none focus:border-blue-500"
           placeholder="Your Message"
           value={message}
           onChange={handleMessageChange}
