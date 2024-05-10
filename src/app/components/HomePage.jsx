@@ -13,12 +13,14 @@ const HomePage = () => {
      <TextEffect />
 
      <div className='mt-[4rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6 '>
-        <a href="file:///C:/Users/texon/Downloads/CV%20(2).pdf">
+      
         <button className='px-[2rem] hover:bg-[#008080] transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#008080] text-white flex items-center space-x-2'>
+        <a href="file:///C:/Users/texon/Downloads/CV%20(2).pdf">
             <p>Download CV</p>
+        </a>
+
             <ArrowBigDownDash  className='w-[1.6rem] h-[1.8rem] text-white'/>
           </button>
-        </a>
       </div>
   </div>
  </div>

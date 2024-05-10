@@ -1,4 +1,6 @@
 "use client"
+import React from 'react'
+
 import Image from "next/image";
 import 'aos/dist/aos.css';
 import { Suspense, useEffect } from 'react';
